@@ -1,0 +1,56 @@
+/* Default reset */
+html, body {
+  margin: 0;
+}
+
+body, a {
+  color: #2f80ed;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.not-found-image {
+  width: 520px;
+  height: 190px;
+  margin: 110px 380px 0;
+}
+
+.not-found-title {
+  font-size: 120px;
+  line-height: 140px;
+  margin: 0 440px;
+}
+
+.not-found-description {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  margin: 10px 440px 0 440px;
+}
+
+.not-found-title:hover {
+  cursor: pointer;
+}
+
+.not-found-title:hover~.not-found-description, .not-found-description:hover {
+  opacity: 1;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 18px;
+}
+
+.footer-content {
+  margin: 0 440px 30px;
+}
